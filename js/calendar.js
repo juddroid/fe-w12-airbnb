@@ -282,6 +282,8 @@
   function dayBoxPickToggle(e) {
     e.currentTarget.classList.toggle('day-box-data--pick');
     e.currentTarget.classList.toggle('day-box-data');
+    // logic을 아직 완성하지 못함
+    // 보완필요!!!
     if (PICK_DATE_COUNT === 2) {
       return (PICK_DATE_COUNT = 0);
     }
